@@ -1,0 +1,43 @@
+{
+    "editor.renderWhitespace": "none",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": true,
+    "sqf.enableACE3": true,
+    "sqf.enableTOH": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "tabnine.experimentalAutoImports": true,
+    "python.languageServer": "Pylance",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "python.defaultInterpreterPath": "C:\\Users\\Eric\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "workbench.editor.enablePreview": false,
+    "git.autofetch": true,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "git.enableSmartCommit": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Cyberpunk 2077 rebuild",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.startupEditor": "none",
+    "editor.inlineSuggest.enabled": true,
+    "git.confirmSync": false,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'cascadia code'",
+    "github.copilot.advanced": {
+
+    },
+    "editor.cursorBlinking": "expand",
+    "redhat.telemetry.enabled": true
+}
