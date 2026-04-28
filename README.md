@@ -1,8 +1,8 @@
-## dotfiles
+## Personal Laptop Setup
 My personal setup and configurations for deploying a new laptop for software development
 
 ## Installation
-Run the `install.sh` script to set up your environment. This script will:
+Run the `install.sh` script to set up environment. This script will:
 - Install Homebrew (if not already installed)
 - Install Zsh and set it as the default shell   
 - Install Oh My Zsh for managing Zsh configurations
@@ -35,7 +35,7 @@ chmod +x install-vscode-extensions-mac-linux.sh
 ./install-vscode-extensions-mac-linux.sh
 ```
 
-To install on Windows, simply run the .bat file:
+To install on Windows:
 ```cmd
 install-vscode-extensions-windows.bat
 ```
@@ -46,7 +46,7 @@ This repository includes a `Brewfile` that automates the installation of necessa
 
 To use the Brewfile:
 
-1. Install Homebrew if you haven't already:
+1. Install Homebrew:
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
