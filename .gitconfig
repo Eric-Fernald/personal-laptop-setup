@@ -1,0 +1,38 @@
+# My global Git configuration.
+#
+# Install by copying this file to the home directory:
+#   macOS/Linux:  ln -sf "$PWD/.gitconfig" ~/.gitconfig
+#   Windows:      copy .gitconfig %USERPROFILE%\.gitconfig
+#
+# On Windows most of the defaults below are already set by the Git for Windows
+# installer at the system level; they are repeated here so a fresh macOS or
+# Linux box gets the same behavior.
+
+[user]
+	name = Eric-Fernald
+	email = ejf4595@gmail.com
+
+[init]
+	defaultBranch = main
+
+[core]
+	editor = code --wait
+	excludesFile = ~/.gitignore_global
+	# Windows: true. On macOS/Linux use `input` instead.
+	autocrlf = true
+	fscache = true
+	symlinks = false
+
+[pull]
+	rebase = false
+
+[credential]
+	# Windows: Git Credential Manager (bundled with Git for Windows).
+	# macOS: use `osxkeychain`. Linux: use `libsecret` or `store`.
+	helper = manager-core
+
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+
+[http]
+	sslBackend = openssl

@@ -1,0 +1,8 @@
+# Global ignores, applied to every repo via core.excludesFile.
+#
+# Install by copying (or symlinking) this file to the home directory:
+#   macOS/Linux:  ln -sf "$PWD/.gitignore_global" ~/.gitignore_global
+#   Windows:      copy .gitignore_global %USERPROFILE%\.gitignore_global
+
+# Claude Code machine-local settings
+**/.claude/settings.local.json
