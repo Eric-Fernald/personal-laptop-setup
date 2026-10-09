@@ -1,74 +1,80 @@
-code --install-extension 4ops.terraform
-code --install-extension adpyke.codesnap
-code --install-extension amazonwebservices.aws-toolkit-vscode
-code --install-extension anthropic.claude-code
-code --install-extension bierner.gif-player
-code --install-extension cardinal90.multi-cursor-case-preserve
-code --install-extension carlos18mz.cyberpunk-2077-rebuild
-code --install-extension charliermarsh.ruff
-code --install-extension cweijan.dbclient-jdbc
-code --install-extension cweijan.vscode-postgresql-client2
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension docker.docker
-code --install-extension esbenp.prettier-vscode
-code --install-extension formulahendry.docker-explorer
-code --install-extension fwcd.kotlin
-code --install-extension github.vscode-github-actions
-code --install-extension github.vscode-pull-request-github
-code --install-extension golang.go
-code --install-extension hashicorp.terraform
-code --install-extension hediet.debug-visualizer
-code --install-extension jakobhoeg.vscode-pokemon
-code --install-extension johnpapa.vscode-peacock
-code --install-extension mathiasfrohlich.kotlin
-code --install-extension mechatroner.rainbow-csv
-code --install-extension mhutchie.git-graph
-code --install-extension mohsen1.prettify-json
-code --install-extension ms-azuretools.vscode-azure-github-copilot
-code --install-extension ms-azuretools.vscode-azure-mcp-server
-code --install-extension ms-azuretools.vscode-azureresourcegroups
-code --install-extension ms-azuretools.vscode-azureterraform
-code --install-extension ms-azuretools.vscode-containers
-code --install-extension ms-azuretools.vscode-docker
-code --install-extension ms-dotnettools.csharp
-code --install-extension ms-dotnettools.vscode-dotnet-runtime
-code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools
-code --install-extension ms-python.black-formatter
-code --install-extension ms-python.debugpy
-code --install-extension ms-python.isort
-code --install-extension ms-python.pylint
-code --install-extension ms-python.python
-code --install-extension ms-python.vscode-pylance
-code --install-extension ms-python.vscode-python-envs
-code --install-extension ms-toolsai.jupyter
-code --install-extension ms-toolsai.jupyter-keymap
-code --install-extension ms-toolsai.jupyter-renderers
-code --install-extension ms-toolsai.vscode-jupyter-cell-tags
-code --install-extension ms-toolsai.vscode-jupyter-slideshow
-code --install-extension ms-vscode-remote.remote-containers
-code --install-extension ms-vscode-remote.remote-ssh
-code --install-extension ms-vscode-remote.remote-ssh-edit
-code --install-extension ms-vscode-remote.remote-wsl
-code --install-extension ms-vscode-remote.vscode-remote-extensionpack
-code --install-extension ms-vscode.cpp-devtools
-code --install-extension ms-vscode.cpptools
-code --install-extension ms-vscode.cpptools-extension-pack
-code --install-extension ms-vscode.cpptools-themes
-code --install-extension ms-vscode.live-server
-code --install-extension ms-vscode.makefile-tools
-code --install-extension ms-vscode.powershell
-code --install-extension ms-vscode.remote-explorer
-code --install-extension ms-vscode.remote-server
-code --install-extension ms-vscode.vscode-speech
-code --install-extension p1c2u.docker-compose
-code --install-extension pflannery.vscode-versionlens
-code --install-extension phplasma.csv-to-table
-code --install-extension pkief.material-icon-theme
-code --install-extension qwtel.sqlite-viewer
-code --install-extension redhat.vscode-yaml
-code --install-extension ritwickdey.liveserver
-code --install-extension sonarsource.sonarlint-vscode
-code --install-extension sst-dev.opencode
-code --install-extension usernamehw.errorlens
-code --install-extension vitest.explorer
-code --install-extension waderyan.gitblame
+@echo off
+call code --install-extension 4ops.terraform
+call code --install-extension adpyke.codesnap
+call code --install-extension amazonwebservices.aws-toolkit-vscode
+call code --install-extension anthropic.claude-code
+call code --install-extension bierner.gif-player
+call code --install-extension cardinal90.multi-cursor-case-preserve
+call code --install-extension carlos18mz.cyberpunk-2077-rebuild
+call code --install-extension catppuccin.catppuccin-vsc-icons
+call code --install-extension charliermarsh.ruff
+call code --install-extension cweijan.dbclient-jdbc
+call code --install-extension cweijan.vscode-postgresql-client2
+call code --install-extension dbaeumer.vscode-eslint
+call code --install-extension docker.docker
+call code --install-extension esbenp.prettier-vscode
+call code --install-extension formulahendry.docker-explorer
+call code --install-extension fwcd.kotlin
+call code --install-extension github.vscode-github-actions
+call code --install-extension github.vscode-pull-request-github
+call code --install-extension gitstudio.gitstudio
+call code --install-extension golang.go
+call code --install-extension hashicorp.terraform
+call code --install-extension hediet.debug-visualizer
+call code --install-extension jakobhoeg.vscode-pokemon
+call code --install-extension johnpapa.vscode-peacock
+call code --install-extension mathiasfrohlich.kotlin
+call code --install-extension mechatroner.rainbow-csv
+call code --install-extension mhutchie.git-graph
+call code --install-extension mohsen1.prettify-json
+call code --install-extension ms-azuretools.vscode-azure-github-copilot
+call code --install-extension ms-azuretools.vscode-azure-mcp-server
+call code --install-extension ms-azuretools.vscode-azureresourcegroups
+call code --install-extension ms-azuretools.vscode-azureterraform
+call code --install-extension ms-azuretools.vscode-containers
+call code --install-extension ms-azuretools.vscode-docker
+call code --install-extension ms-dotnettools.csharp
+call code --install-extension ms-dotnettools.vscode-dotnet-runtime
+call code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools
+call code --install-extension ms-python.black-formatter
+call code --install-extension ms-python.debugpy
+call code --install-extension ms-python.isort
+call code --install-extension ms-python.pylint
+call code --install-extension ms-python.python
+call code --install-extension ms-python.vscode-pylance
+call code --install-extension ms-python.vscode-python-envs
+call code --install-extension ms-toolsai.jupyter
+call code --install-extension ms-toolsai.jupyter-keymap
+call code --install-extension ms-toolsai.jupyter-renderers
+call code --install-extension ms-toolsai.vscode-jupyter-cell-tags
+call code --install-extension ms-toolsai.vscode-jupyter-slideshow
+call code --install-extension ms-vscode-remote.remote-containers
+call code --install-extension ms-vscode-remote.remote-ssh
+call code --install-extension ms-vscode-remote.remote-ssh-edit
+call code --install-extension ms-vscode-remote.remote-wsl
+call code --install-extension ms-vscode-remote.vscode-remote-extensionpack
+call code --install-extension ms-vscode.cpp-devtools
+call code --install-extension ms-vscode.cpptools
+call code --install-extension ms-vscode.cpptools-extension-pack
+call code --install-extension ms-vscode.cpptools-themes
+call code --install-extension ms-vscode.live-server
+call code --install-extension ms-vscode.makefile-tools
+call code --install-extension ms-vscode.powershell
+call code --install-extension ms-vscode.remote-explorer
+call code --install-extension ms-vscode.remote-server
+call code --install-extension ms-vscode.vscode-speech
+call code --install-extension onlineeric.speedy-git-ext
+call code --install-extension p1c2u.docker-compose
+call code --install-extension pflannery.vscode-versionlens
+call code --install-extension phplasma.csv-to-table
+call code --install-extension pkief.material-icon-theme
+call code --install-extension qwtel.sqlite-viewer
+call code --install-extension redhat.vscode-yaml
+call code --install-extension ritwickdey.liveserver
+call code --install-extension sonarsource.sonarlint-vscode
+call code --install-extension sst-dev.opencode
+call code --install-extension tomoki1207.pdf
+call code --install-extension usernamehw.errorlens
+call code --install-extension vitest.explorer
+call code --install-extension waderyan.gitblame
+echo Done installing VS Code extensions.

@@ -20,16 +20,17 @@
 	excludesFile = ~/.gitignore_global
 	# Windows: true. On macOS/Linux use `input` instead.
 	autocrlf = true
+	# Windows-only (Git for Windows); ignored elsewhere.
 	fscache = true
-	symlinks = false
 
 [pull]
 	rebase = false
 
 [credential]
-	# Windows: Git Credential Manager (bundled with Git for Windows).
-	# macOS: use `osxkeychain`. Linux: use `libsecret` or `store`.
-	helper = manager-core
+	# Windows: Git Credential Manager (bundled with Git for Windows; the old
+	# `manager-core` name is deprecated). GCM also runs on macOS/Linux; without
+	# it, use `osxkeychain` on macOS or `libsecret`/`store` on Linux.
+	helper = manager
 
 [credential "https://dev.azure.com"]
 	useHttpPath = true

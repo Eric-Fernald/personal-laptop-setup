@@ -124,6 +124,8 @@ vscode "sst-dev.opencode"
 # Git & GitHub
 vscode "mhutchie.git-graph"
 vscode "waderyan.gitblame"
+vscode "gitstudio.gitstudio"
+vscode "onlineeric.speedy-git-ext"
 vscode "github.vscode-pull-request-github"
 vscode "github.vscode-github-actions"
 
@@ -147,9 +149,11 @@ vscode "ms-vscode.powershell"
 vscode "ms-vscode.vscode-speech"
 vscode "cardinal90.multi-cursor-case-preserve"
 vscode "adpyke.codesnap"
+vscode "tomoki1207.pdf"
 
 # Themes & UI
 vscode "pkief.material-icon-theme"
+vscode "catppuccin.catppuccin-vsc-icons"
 vscode "carlos18mz.cyberpunk-2077-rebuild"
 vscode "johnpapa.vscode-peacock"
 vscode "bierner.gif-player"

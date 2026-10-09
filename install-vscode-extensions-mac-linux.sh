@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+command -v code >/dev/null || { echo "Error: 'code' not found on PATH. Install VS Code and its shell command first."; exit 1; }
 code --install-extension 4ops.terraform
 code --install-extension adpyke.codesnap
 code --install-extension amazonwebservices.aws-toolkit-vscode
@@ -5,6 +7,7 @@ code --install-extension anthropic.claude-code
 code --install-extension bierner.gif-player
 code --install-extension cardinal90.multi-cursor-case-preserve
 code --install-extension carlos18mz.cyberpunk-2077-rebuild
+code --install-extension catppuccin.catppuccin-vsc-icons
 code --install-extension charliermarsh.ruff
 code --install-extension cweijan.dbclient-jdbc
 code --install-extension cweijan.vscode-postgresql-client2
@@ -15,6 +18,7 @@ code --install-extension formulahendry.docker-explorer
 code --install-extension fwcd.kotlin
 code --install-extension github.vscode-github-actions
 code --install-extension github.vscode-pull-request-github
+code --install-extension gitstudio.gitstudio
 code --install-extension golang.go
 code --install-extension hashicorp.terraform
 code --install-extension hediet.debug-visualizer
@@ -60,6 +64,7 @@ code --install-extension ms-vscode.powershell
 code --install-extension ms-vscode.remote-explorer
 code --install-extension ms-vscode.remote-server
 code --install-extension ms-vscode.vscode-speech
+code --install-extension onlineeric.speedy-git-ext
 code --install-extension p1c2u.docker-compose
 code --install-extension pflannery.vscode-versionlens
 code --install-extension phplasma.csv-to-table
@@ -69,6 +74,7 @@ code --install-extension redhat.vscode-yaml
 code --install-extension ritwickdey.liveserver
 code --install-extension sonarsource.sonarlint-vscode
 code --install-extension sst-dev.opencode
+code --install-extension tomoki1207.pdf
 code --install-extension usernamehw.errorlens
 code --install-extension vitest.explorer
 code --install-extension waderyan.gitblame
