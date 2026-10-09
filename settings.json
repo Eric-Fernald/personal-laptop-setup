@@ -1,43 +1,130 @@
 {
-    "editor.renderWhitespace": "none",
-    "editor.minimap.enabled": false,
-    "breadcrumbs.enabled": true,
-    "sqf.enableACE3": true,
-    "sqf.enableTOH": true,
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "tabnine.experimentalAutoImports": true,
-    "python.languageServer": "Pylance",
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter-notebook"
-    },
-    "python.defaultInterpreterPath": "C:\\Users\\Eric\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
-    "workbench.editor.enablePreview": false,
-    "git.autofetch": true,
-    "java.configuration.checkProjectSettingsExclusions": false,
-    "terminal.integrated.sendKeybindingsToShell": true,
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "git.enableSmartCommit": true,
-    "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Cyberpunk 2077 rebuild",
-    "[python]": {
-        "editor.formatOnType": true
+    "workbench.iconTheme": "catppuccin-latte",
+    "workbench.experimental.modernUI": true,
+    "material-icon-theme.folders.color": "#26a69a",
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.promptForLocalFileProtocolHandling": false,
+    "editor.fontFamily": "Cascadia Code",
+    "editor.cursorBlinking": "expand",
+    "editor.formatOnSave": true,
+    "diffEditor.maxComputationTime": 0,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.startupEditor": "none",
-    "editor.inlineSuggest.enabled": true,
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "yaml.disableSchemaDetection": [
+        "**/.github/workflows/*.yml",
+        "**/.github/workflows/*.yaml",
+        "**/.gitea/workflows/*.yml",
+        "**/.gitea/workflows/*.yaml",
+        "**/.forgejo/workflows/*.yml",
+        "**/.forgejo/workflows/*.yaml"
+    ],
+    "git.autofetch": true,
     "git.confirmSync": false,
+    "git.ignoreRebaseWarning": true,
+    "git.addAICoAuthor": "off",
+    "git.blame.statusBarItem.enabled": false,
+    "githubPullRequests.createOnPublishBranch": "never",
+    "gitstudio.ai.anthropicModelDeep": "claude-opus-5-5",
+    "gitstudio.ai.anthropicModelMid": "claude-sonnet-5",
+    "gitstudio.ai.commitStyle": "concise",
+    "gitstudio.ai.cliAgent": "claude-code",
+    "gitstudio.blame.clickOpensCommit": false,
+    "gitstudio.blame.gutter.colors": "hide",
+    "gitstudio.blame.gutter.fields": [],
+    "gitstudio.blame.heatmap": false,
+    "gitstudio.blame.inlineEnabled": false,
+    "gitstudio.blame.showDiffOnHover": false,
+    "gitstudio.blame.statusBarEnabled": false,
+    "gitstudio.changes.stagingModel": "split",
+    "speedyGit.dateFormat": "system",
+    "speedyGit.avatars.enabled": false,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        },
+        "Command Prompt": {
+            "path": "C:\\WINDOWS\\System32\\cmd.exe",
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash",
+            "icon": "terminal-git-bash",
+            "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+            "args": [
+                "--login",
+                "-i"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.allowedLinkSchemes": [
+        "file",
+        "http",
+        "https",
+        "mailto",
+        "vscode",
+        "vscode-insiders",
+        "docker-desktop"
+    ],
+    "terminal.integrated.initialHint": false,
+    "terminal.integrated.mouseWheelScrollSensitivity": 3,
+    "terminal.integrated.gpuAcceleration": "off",
+    "python.createEnvironment.trigger": "off",
+    "python.terminal.activateEnvironment": false,
+    "python.testing.pytestEnabled": true,
+    "go.toolsManagement.autoUpdate": true,
+    "makefile.configureOnOpen": false,
+    "docker.extension.enableComposeLanguageServer": false,
+    "docker.extension.dockerEngineAvailabilityPrompt": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "sonarlint.focusOnNewCode": true,
+    "sonarlint.automaticAnalysis": false,
+    "redhat.telemetry.enabled": true,
+    "aws.cloudformation.telemetry.enabled": false,
     "github.copilot.enable": {
         "*": true,
-        "plaintext": true,
-        "markdown": true,
-        "scminput": true
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "go": false
     },
-    "security.workspace.trust.untrustedFiles": "open",
-    "editor.fontSize": 16,
-    "editor.fontFamily": "'cascadia code'",
-    "github.copilot.advanced": {
-
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "chat.exploreAgent.defaultModel": "Claude Haiku 4.5 (copilot)",
+    "chat.tips.enabled": false,
+    "chat.viewSessions.orientation": "stacked",
+    "chat.experimental.incrementalRendering.enabled": true,
+    "chat.experimental.incrementalRendering.animationStyle": "blur",
+    "chat.tools.compressOutput.enabled": true,
+    "chat.tools.urls.autoApprove": {
+        "https://code.visualstudio.com": true,
+        "https://github.com/microsoft/vscode/wiki/*": true
     },
-    "editor.cursorBlinking": "expand",
-    "redhat.telemetry.enabled": true
+    "chat.hookFilesLocations": {
+        ".github/hooks": true,
+        ".claude/settings.local.json": true,
+        ".claude/settings.json": true,
+        "~/.copilot/hooks": true,
+        "~/.claude/settings.json": true,
+        "~/.agents/hooks": true
+    },
+    "claudeCode.preferredLocation": "panel",
+    "claudeCode.hideOnboarding": true
 }
